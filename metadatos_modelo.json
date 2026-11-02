@@ -1,0 +1,31 @@
+{
+  "proyecto": "Predicción del resultado académico",
+  "momento_prediccion": "Al finalizar el primer semestre",
+  "variables": [
+    "Age at enrollment",
+    "Admission grade",
+    "Previous qualification (grade)",
+    "Scholarship holder",
+    "Curricular units 1st sem (enrolled)",
+    "Curricular units 1st sem (evaluations)",
+    "Curricular units 1st sem (approved)",
+    "Curricular units 1st sem (grade)"
+  ],
+  "clases": [
+    "Dropout",
+    "Enrolled",
+    "Graduate"
+  ],
+  "parametros_ajustados": {
+    "max_depth": null,
+    "min_samples_leaf": 5
+  },
+  "f1_macro_validacion": 0.6488944433205541,
+  "metricas_prueba": {
+    "accuracy": 0.6779661016949152,
+    "balanced_accuracy": 0.6166843162239514,
+    "f1_macro": 0.616572504708098
+  },
+  "version_scikit_learn": "1.6.1",
+  "limitacion": "Prototipo académico con menor desempeño en la clase Matriculado. No determina el futuro de un estudiante."
+}

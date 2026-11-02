@@ -1,0 +1,2 @@
+modelo,accuracy,balanced_accuracy,f1_macro
+Bosque aleatorio ajustado,0.6779661016949152,0.6166843162239514,0.616572504708098
